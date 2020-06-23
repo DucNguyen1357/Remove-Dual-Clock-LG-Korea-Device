@@ -19,7 +19,8 @@ B3 : Sau đó kết nối điện thoại với máy tính, kích hoạt chế �
 kích hoạt sửa lỗi USB.
 
 B4 : Trên máy tính các bạn vào Search, tìm cmd và chạy nó với quyền quản trị,
-sau đó gõ lệnh "cd /" và gõ tiếp "cd 'tên File ADB bạn đã cài'".
+sau đó gõ lệnh "cd /" và gõ tiếp "cd adb".
+(ADB sau khi cài thì thư mục mặc định ở ổ C:)
 B4.1 : Đầu tiên các bạn gõ là "adb devices" thì nó sẽ hiện là :
       VD : "LGMG600K1de67c62        unauthorized"
           tức là chưa cấp phép ADB trên điện thoại, bạn vào điện thoại bấm cho phép
