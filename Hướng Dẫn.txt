@@ -5,11 +5,12 @@ và cần phải dùng ADB nên cần chuẩn bị máy tính nhé.
 LƯU Ý : TỪ BẢN ANDROID 10 TRỞ LÊN THÌ KHI XÓA DUAL CLOCK THÌ ĐỒNG HỒ SẼ KHÔNG 
 CĂN GIỮA MÀN HÌNH, TỪ BẢN ANDROID 10 TRỞ XUỐNG THÌ NÓ SẼ TỰ ĐỘNG CĂN GIỮA MÀN HÌNH.
 Toàn bộ Link tải và lệnh mình sẽ quăng ở phần mô tả Video.
+Tải toàn bộ File ở đây : http://megaurl.in/ETfTEpVy
 
 --------------------------------------
 
 Các bước HD :
-B1 : Cài đặt ADB trước (Link ADB : http://megaurl.in/ETfTEpVy)
+B1 : Cài đặt ADB, Driver USB cho LG trên máy tính trước.
 
 B2 : Trên điện thoại các bạn tải ứng dụng SetEdit (Settings Database Editor) trên 
 Google Play.
