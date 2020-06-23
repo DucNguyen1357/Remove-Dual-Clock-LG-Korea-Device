@@ -5,6 +5,9 @@ và cần phải dùng ADB nên cần chuẩn bị máy tính nhé.
 LƯU Ý : TỪ BẢN ANDROID 10 TRỞ LÊN THÌ KHI XÓA DUAL CLOCK THÌ ĐỒNG HỒ SẼ KHÔNG 
 CĂN GIỮA MÀN HÌNH, TỪ BẢN ANDROID 10 TRỞ XUỐNG THÌ NÓ SẼ TỰ ĐỘNG CĂN GIỮA MÀN HÌNH.
 Toàn bộ Link tải và lệnh mình sẽ quăng ở phần mô tả Video.
+
+--------------------------------------
+
 Các bước HD :
 B1 : Cài đặt ADB trước (Link ADB : http://megaurl.in/ETfTEpVy)
 
@@ -13,13 +16,19 @@ Google Play.
 Link : https://play.google.com/store/apps/details?id=by4a.setedit22&hl=en
 
 B3 : Sau đó kết nối điện thoại với máy tính, kích hoạt chế độ nhà phát triển, 
-kích hoạt sửa lỗi USB, trên điện thoại hỏi là muốn sửa lỗi trên thiết bị này thì bấm
-OK.
+kích hoạt sửa lỗi USB.
 
-B4 : Trên máy tính các bạn cd / đến file adb ở ổ C: sau đó gõ lệnh "adb devices", nếu
-có dòng hiện ra là "LG...." thì là OK rồi nhá.
+B4 : Trên máy tính các bạn vào Search, tìm cmd và chạy nó với quyền quản trị,
+sau đó gõ lệnh "cd /" và gõ tiếp "cd 'tên File ADB bạn đã cài'".
+B4.1 : Đầu tiên các bạn gõ là "adb devices" thì nó sẽ hiện là :
+      VD : "LGMG600K1de67c62        unauthorized"
+          tức là chưa cấp phép ADB trên điện thoại, bạn vào điện thoại bấm cho phép
+          nhé.
+Sau khi bấm xong các bạn gõ tiếp : "adb devices", nó hiện là :
+           "LGMG600K1de67c62        device"
+           tức là máy đã được cấp phép rồi nhé, đến bước tiếp theo thôi.
 
-B5 : Sau khi gõ lệnh trên xong thấy dòng "LG.." thì tiếp tục gõ lệnh sau
+B5 : Sau khi gõ lệnh trên xong thấy dòng "LG.." như trên thì tiếp tục gõ lệnh sau
 "adb shell pm grant by4a.setedit22 android.permission.WRITE_SECURE_SETTINGS"
 để cấp quyền truy cập hệ thống cho ứng dụng vừa tải ở trên.
 
@@ -28,25 +37,10 @@ và chuyển qua "Secure table", sau đó tìm đến dòng "roaming_dualclock" 
 rồi bấm tiếp vào "Edit Value" rồi chuyển giá trị đó thành "1" rồi lưu lại.
 
 Vậy là xong, giờ các bạn thử tắt màn hình bật lại để xem thành quả nhé.
-Vậy là đã xong rồi, nhưng đồng hồ sẽ bị lệch sang trái vì nó không căn giữa được.
-(Đối với Android 10)
+Đối với của mình thì là LG G6 KT Telecom và đang chạy Android 9 nên nó sẽ tự cân
+đồng hồ ra giữa nhé.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+-----------------------------
 
 Nguồn : lgviet.info
 Nguồn bài viết : https://lgviet.info/threads/tat-dong-ho-doi-lg-v50-remove-dual-clock.2254/
