@@ -5,7 +5,6 @@ và cần phải dùng ADB nên cần chuẩn bị máy tính nhé.
 LƯU Ý : TỪ BẢN ANDROID 10 TRỞ LÊN THÌ KHI XÓA DUAL CLOCK THÌ ĐỒNG HỒ SẼ KHÔNG 
 CĂN GIỮA MÀN HÌNH, TỪ BẢN ANDROID 10 TRỞ XUỐNG THÌ NÓ SẼ TỰ ĐỘNG CĂN GIỮA MÀN HÌNH.
 Toàn bộ Link tải và lệnh mình sẽ quăng ở phần mô tả Video.
-Tải toàn bộ File ở đây : http://megaurl.in/ETfTEpVy
 
 --------------------------------------
 
