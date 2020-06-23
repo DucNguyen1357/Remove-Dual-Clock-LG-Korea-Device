@@ -1,0 +1,52 @@
+﻿Hello xin chào mọi người
+Trong lúc đang đi dạo quanh FB thì thấy cách xóa 2 đồng hồ trên các dòng LG Hàn như
+LG V50 android 10, các dòng LG v30, V40, LG V60 Thinq, G8, LG Velvet...
+và cần phải dùng ADB nên cần chuẩn bị máy tính nhé.
+LƯU Ý : TỪ BẢN ANDROID 10 TRỞ LÊN THÌ KHI XÓA DUAL CLOCK THÌ ĐỒNG HỒ SẼ KHÔNG 
+CĂN GIỮA MÀN HÌNH, TỪ BẢN ANDROID 10 TRỞ XUỐNG THÌ NÓ SẼ TỰ ĐỘNG CĂN GIỮA MÀN HÌNH.
+Toàn bộ Link tải và lệnh mình sẽ quăng ở phần mô tả Video.
+Các bước HD :
+B1 : Cài đặt ADB trước (Link ADB : http://megaurl.in/ETfTEpVy)
+
+B2 : Trên điện thoại các bạn tải ứng dụng SetEdit (Settings Database Editor) trên 
+Google Play.
+Link : https://play.google.com/store/apps/details?id=by4a.setedit22&hl=en
+
+B3 : Sau đó kết nối điện thoại với máy tính, kích hoạt chế độ nhà phát triển, 
+kích hoạt sửa lỗi USB, trên điện thoại hỏi là muốn sửa lỗi trên thiết bị này thì bấm
+OK.
+
+B4 : Trên máy tính các bạn cd / đến file adb ở ổ C: sau đó gõ lệnh "adb devices", nếu
+có dòng hiện ra là "LG...." thì là OK rồi nhá.
+
+B5 : Sau khi gõ lệnh trên xong thấy dòng "LG.." thì tiếp tục gõ lệnh sau
+"adb shell pm grant by4a.setedit22 android.permission.WRITE_SECURE_SETTINGS"
+để cấp quyền truy cập hệ thống cho ứng dụng vừa tải ở trên.
+
+B6 : Mở ứng dụng vừa tải ở trên, ở trên bên phải có đề là "System Table", bấm vào đó
+và chuyển qua "Secure table", sau đó tìm đến dòng "roaming_dualclock" và bấm vào đó
+rồi bấm tiếp vào "Edit Value" rồi chuyển giá trị đó thành "1" rồi lưu lại.
+
+Vậy là xong, giờ các bạn thử tắt màn hình bật lại để xem thành quả nhé.
+Vậy là đã xong rồi, nhưng đồng hồ sẽ bị lệch sang trái vì nó không căn giữa được.
+(Đối với Android 10)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Nguồn : lgviet.info
+Nguồn bài viết : https://lgviet.info/threads/tat-dong-ho-doi-lg-v50-remove-dual-clock.2254/
