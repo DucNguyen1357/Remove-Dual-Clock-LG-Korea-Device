@@ -11,13 +11,17 @@ LƯU Ý : TỪ BẢN ANDROID 10 TRỞ LÊN KHI XÓA DUAL CLOCK, ĐỒNG HỒ KH�
 Trên điện thoại các bạn tải cho mình [SetEdit (Settings Database Editor)](https://play.google.com/store/apps/details?id=by4a.setedit22&hl=en)
 
 Trên máy tính các bạn tải File `LGMobileDriver_WHQL_Ver_4.2.0.exe` và `adb-setup-1.4.3.exe`
+
 Sau đó cài đặt lên trên máy tính 2 File này
 
 ### 2. Kết nối điện thoại với máy tính
 
-Sau khi cài đặt các phần mềm ở trên xong, hãy kết nối điện thoại vào máy tính
+Sau khi cài đặt các phần mềm ở trên xong, hãy kết nối điện thoại vào máy tính.
+
 Trên máy tính, chạy CMD với quyền quản trị sau đó gõ lệnh "cd/" và gõ tiếp "cd adb".
+
 (ADB sau khi cài đặt, thư mục mặc định ở ổ C:. Nếu các bạn để chỗ khác, hãy trỏ cmd sang chỗ các bạn cài ADB).
+
 Sau khi làm và trỏ CMD đến ADB, gõ lệnh
 ```bash
 adb devices
