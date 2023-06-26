@@ -8,7 +8,7 @@ LƯU Ý : TỪ BẢN ANDROID 10 TRỞ LÊN KHI XÓA DUAL CLOCK, ĐỒNG HỒ KH�
 
 ### 1. Cài đặt các phần mềm cần thiết
 
-Trên điện thoại các bạn tải cho mình [SetEdit (Settings Database Editor](https://play.google.com/store/apps/details?id=by4a.setedit22&hl=en)
+Trên điện thoại các bạn tải cho mình [SetEdit (Settings Database Editor)](https://play.google.com/store/apps/details?id=by4a.setedit22&hl=en)
 
 Trên máy tính các bạn tải File `LGMobileDriver_WHQL_Ver_4.2.0.exe` và `adb-setup-1.4.3.exe`
 Sau đó cài đặt lên trên máy tính 2 File này
