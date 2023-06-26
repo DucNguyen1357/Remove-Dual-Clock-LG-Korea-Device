@@ -47,6 +47,8 @@ adb shell pm grant by4a.setedit22 android.permission.WRITE_SECURE_SETTINGS
 ### 4. Mở App Set Edit trên điện thoại
 
 Mở app Set Edit ở trên điện thoại, chú ý vào dòng `System Table`
+
 Bấm vào và chuyển qua `Secure table`, rồi tìm dòng ghi là `roaming_dualclock`
+
 Bấm vào dòng đó, chọn `Edit Value` rồi chuyển giá trị thành `1` và lưu lại.
 
