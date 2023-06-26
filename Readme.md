@@ -22,11 +22,17 @@ Sau khi làm và trỏ CMD đến ADB, gõ lệnh
 ```bash
 adb devices
 ```
-
-B4.1 : Đầu tiên các bạn gõ là  thì nó sẽ hiện là :
-      VD : "LGMG600K1de67c62        unauthorized"
-          tức là chưa cấp phép ADB trên điện thoại, bạn vào điện thoại bấm cho phép
-          nhé.
-Sau khi bấm xong các bạn gõ tiếp : "adb devices", nó hiện là :
-           "LGMG600K1de67c62        device"
-           tức là máy đã được cấp phép rồi nhé, đến bước tiếp theo thôi.
+Nó sẽ hiển thị model máy bạn
+```bash
+LGMG600K1de67c62        unauthorized
+```
+Nếu hiển thị như này tức là chưa cấp phép ADB trên điện thoại, trên điện thoại hãy bấm cho phép.
+Sau khi bấm xong các bạn gõ tiếp 
+```bash
+adb devices
+```
+Và nó sẽ hiện như này là xong, đến bước tiếp theo
+```bash
+LGMG600K1de67c62        device
+```
+Nếu như không hiển thị như vậy, hãy nhập lại "adb devices" một lần nữa
