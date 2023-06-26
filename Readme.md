@@ -9,7 +9,7 @@ LƯU Ý : TỪ BẢN ANDROID 10 TRỞ LÊN KHI XÓA DUAL CLOCK, ĐỒNG HỒ KH�
 ### 1. Cài đặt các phần mềm cần thiết
 
 ```bash
-Trên điện thoại các bạn tải cho mình [SetEdit](https://play.google.com/store/apps/details?id=by4a.setedit22&hl=en)
-[Netflx OTT](https://netflx-web.vercel.app/)
+Trên điện thoại các bạn tải cho mình SetEdit (Settings Database Editor)
+Link : https://play.google.com/store/apps/details?id=by4a.setedit22&hl=en
 ```
 Cài đặt ADB, Driver USB cho LG trên máy tính trước.
