@@ -56,3 +56,11 @@ Bấm vào và chuyển qua `Secure table`, rồi tìm dòng ghi là `roaming_du
 
 Bấm vào dòng đó, chọn `Edit Value` rồi chuyển giá trị thành `1` và lưu lại.
 
+### 5. Xong, thưởng thức thành quả.
+
+Vậy là xong, giờ các bạn thử tắt màn hình bật lại để xem thành quả nhé.
+
+Mình đã test thử trên LG G6 KT Telecom và đang chạy Android 9 nên nó sẽ tự động căn đồng hồ ra giữa nhé.
+
+### Nguồn bài viết : https://lgviet.info/threads/tat-dong-ho-doi-lg-v50-remove-dual-clock.2254/
+
